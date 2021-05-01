@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS Slideshow</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color:grey;
+        }
+        .text-center {
+            text-align:center;
+        }
+    </style>
+</head>
+<body>
+
+<h1 class="text-center">Display of the use of JavaScript to make a slideshow!</h1>
+<div class = "text-center" id="slideshow-example" data-component="slideshow">
+    <div role="list">
+        <div class="slide">
+            <img src="../imgs/bird_eating.jpeg" width="500" height="500" alt="Bird eating berry">
+        </div>
+        <div class="slide">
+            <img src="../imgs/safari_cat.jpeg" width="500" height="500" alt="Exotic Cat">
+        </div>
+        <div class="slide">
+            <img src="../imgs/screaming_bird.jpeg" width="500" height="500" alt="Loud Mouth Bird">
+        </div>
+    </div>
+</div>
+
+<script src="../src/slideshow.js"></script>
+</body>
+</html>
